@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <title>Pension Portal</title>
+</head>
+<body>
+    <a href="https://pensionersportal.gov.in/" class="home-button">Home</a>
+    <div class="language-selector" id="language-selector"></div>
+    <a href="mailto:svemulapalli@jpischool.com?subject=Regarding%20the%20Pension%20Portal" class="contact-link">Contact Us</a>
+    <div class="container">
+        <h1>Pension Portal</h1>
+        <form id="login-form">
+            <div class="input-group">
+                <label for="id">ID:</label>
+                <input type="text" id="id" name="id" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="button" id="submit-button">Submit</button>
+        </form>
+        <div id="result" class="hidden"></div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
